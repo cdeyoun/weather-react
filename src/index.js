@@ -45,9 +45,7 @@ function App() {
             <span id="temp">9</span>
             <span id="units">
               °C |{" "}
-              <a href="#" id="fahrenheit-link">
                 °F
-              </a>
             </span>
           </div>
           <div className="details" id="description">
