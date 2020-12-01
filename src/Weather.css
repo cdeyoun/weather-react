@@ -1,9 +1,15 @@
 .Weather {
-  font-family: arial, sans-serif;
+  font-family: "Fredericka the Great", Times, serif;
   border: 1px solid #dadde1;
   padding: 20px;
   border-radius: 4px;
-  color: rgb(135, 135, 135);
+  color: rgb(39, 39, 39);
+  background-image: linear-gradient(
+    to top,
+    #dad4ec 0%,
+    #dad4ec 1%,
+    #f3e7e9 100%
+  );
 }
 
 .Weather form {
@@ -19,7 +25,7 @@
 
 .Weather ul {
   margin: 0;
-  padding: 0;
+  padding: 0 0 5px;
 }
 
 .Weather li {
@@ -51,5 +57,5 @@
   position: relative;
   line-height: 1;
   top: -32px;
-  margin-left: 0px;
+  margin-left: 3px;
 }
